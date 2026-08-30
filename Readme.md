@@ -31,5 +31,5 @@ This agent was deployed directly to Cloud Run using the following Google Cloud S
 gcloud run deploy bq-data-agent \
   --source . \
   --region us-central1 \
-  --set-env-vars GEMINI_API_KEY="AQ.Ab8RN6JRwr_zal1vGusiVJ9Ht5G-I6eEoGq5_BzCAROIRG47gA" \
+  --set-env-vars GEMINI_API_KEY="AQ.XXXXXXXXXxgA" \
   --allow-unauthenticated
