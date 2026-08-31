@@ -6,7 +6,6 @@ from google.genai import types
 app = Flask(__name__)
 
 # Initialize Clients
-bq_client = bigquery.Client()
 ai_client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 SYSTEM_INSTRUCTION = """
