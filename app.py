@@ -1,6 +1,5 @@
 import os
 from flask import Flask, request, jsonify, render_template_string
-from google.cloud import bigquery
 from google import genai
 from google.genai import types
 
